@@ -1,0 +1,85 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://i.pinimg.com/originals/2e/aa/f0/2eaaf03faf792e46125f6e05ff565886.jpg");
+    background-size: cover;
+}
+
+.main-content {
+    text-align: center;
+    box-shadow: 0 0 10px rgb(236, 177, 177);
+}
+
+.top-section {
+    background-color: beige;
+    padding: 50px 0 50px 0;
+    color:lightpink;
+}
+
+.top-section img {
+    width: 50%;
+    border-radius: 50;
+}
+
+.top-section p {
+    margin 5px 0 5px 0;
+}
+
+.top-section .name {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.top-section .email, .mobile {
+    font-size: 18px;
+}
+
+.middle-section, .botton-section {
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+.middle-section {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    width: 100%;
+    top:-50px;
+}
+
+.middle-section a{
+    text-decoration: none;
+}
+
+.social i {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color:rgb(235, 157, 183);
+    background-color: 50%;
+    border-radius: 50%;
+    line-height: 50px;
+    margin: 20px;
+}
+
+.botton-section {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botton-section span {
+    display: block;
+}
+
+.border {
+    width: 1px;
+    height: : 40px;
+    background-color: #d3dae2;
+    margin-left: 50px;
+    margin-right: 40px;
+}
